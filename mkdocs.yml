@@ -1,0 +1,16 @@
+# Info du projet
+site_name: Ressourcerie Idgeo
+
+# Theme
+theme:
+    name: material
+    logo: assets/Globe.png
+    
+# Plugins
+plugins:
+    mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
+      css_style:
+        width: "100%"
