@@ -3,8 +3,13 @@ site_name: Ressourcerie Idgeo
 
 # Theme
 theme:
-    name: material
+    #name: material
     logo: assets/Globe.png
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+      - yaml
+      - rust
     
 # Plugins
 #plugins:
