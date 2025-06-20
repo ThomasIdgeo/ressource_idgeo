@@ -81,6 +81,6 @@ https://github.com/qgis/QGIS/blob/master/CONTRIBUTING.md#bug-reporting-and-bug-f
 
 -----
 
-### Bonnes pratiques pour contribuer à plugin
+### Bonnes pratiques pour contribuer à un plugin
 
 Trouver le repo en passant par qgis.plugin.org

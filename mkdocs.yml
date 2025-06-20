@@ -7,10 +7,10 @@ theme:
     logo: assets/Globe.png
     
 # Plugins
-plugins:
-    mkdocs-video:
-      is_video: True
-      video_muted: True
-      video_controls: True
-      css_style:
-        width: "100%"
+#plugins:
+#    mkdocs-video:
+#      is_video: True
+#      video_muted: True
+#      video_controls: True
+#      css_style:
+#        width: "100%"
