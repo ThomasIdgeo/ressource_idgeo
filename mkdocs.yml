@@ -1,16 +1,32 @@
 # Info du projet
 site_name: Ressourcerie Idgeo
+repo_url : https://github.com/ThomasIdgeo/ressource_idgeo
 
 # Theme
 theme:
-    #name: material
     logo: assets/Globe.png
     name: readthedocs
     highlightjs: true
     hljs_languages:
       - yaml
       - rust
-    
+    locale : fr
+
+# Navigation
+nav:
+  - Accueil : index.md 
+  - QGIS :
+    - Ajouter un bouton : qgis/qgis_ajout_bouton_process.md
+    - Ajouter un Web Services : qgis/qgis_ajout_ws.md
+    - Rencontres 2025 - Contributions : qgis/qgis_contribution.md
+  - Web carto : 
+    - L'art du tuilage Raster : web/tuilage/tuilage_raster.md
+  - Linux Trics :
+    - Astuces Ubuntu : linux/astuces_ubuntu/astuces_ubuntu.md
+  - Culture Géomatique :
+    - Détentons-nous ! : cultureG/detente.md
+    - Jouons : cultureG/jouons.md
+    - Idées cadeaux : cultureG/idee_cadeau.md
 # Plugins
 #plugins:
 #    mkdocs-video:
