@@ -8,12 +8,11 @@ use_directory_urls: false
 # Theme
 theme:
     logo: assets/Globe.png
-    name: readthedocs
+    name: material #readthedocs
     highlightjs: true
     hljs_languages:
       - yaml
       - rust
-    locale : fr
 
 # Navigation
 nav:
@@ -30,11 +29,5 @@ nav:
     - Détentons-nous ! : cultureG/detente.md
     - Jouons : cultureG/jouons.md
     - Idées cadeaux : cultureG/idee_cadeau.md
+    
 # Plugins
-#plugins:
-#    mkdocs-video:
-#      is_video: True
-#      video_muted: True
-#      video_controls: True
-#      css_style:
-#        width: "100%"
