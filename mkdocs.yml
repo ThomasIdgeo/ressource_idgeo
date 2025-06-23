@@ -7,8 +7,19 @@ use_directory_urls: false
 
 # Theme
 theme:
-    logo: assets/Globe.png
-    name: material #readthedocs
+  name: material
+  palette:
+    scheme: slate
+    toggle:
+      icon: img/globe.jpg
+      name: Dark mode
+    primary: custom
+    accent: custom
+
+  #icon:
+  #  logo: docs/assets/Globe.jpg
+  #  favicon: docs/assets/favicon.ico
+    
     highlightjs: true
     hljs_languages:
       - yaml
@@ -30,4 +41,7 @@ nav:
     - Jouons : cultureG/jouons.md
     - Idées cadeaux : cultureG/idee_cadeau.md
     
-# Plugins
+# CSS
+
+extra_css:
+  - css/extra.css
