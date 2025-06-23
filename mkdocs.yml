@@ -1,7 +1,9 @@
 # Info du projet
 site_name: Ressourcerie Idgeo
+site_url: https://thomasidgeo.github.io/ressource_idgeo/
 repo_url : https://github.com/ThomasIdgeo/ressource_idgeo
 site_author : Idgeo
+use_directory_urls: false
 
 # Theme
 theme:
