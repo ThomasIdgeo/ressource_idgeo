@@ -3,7 +3,7 @@ name: Deploiement du site MkDocs/ReadtheDocks sur GitHub Pages
 on:
   push:
     branches:
-      - main
+      - gh-pages
 
 permissions:
   contents: write
